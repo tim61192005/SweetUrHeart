@@ -13,6 +13,9 @@
 		FC5E36CA23F7C20000CD4F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E36C823F7C20000CD4F8D /* Main.storyboard */; };
 		FC5E36CC23F7C20200CD4F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5E36CB23F7C20200CD4F8D /* Assets.xcassets */; };
 		FC5E36CF23F7C20200CD4F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E36CD23F7C20200CD4F8D /* LaunchScreen.storyboard */; };
+		FC5E36D723F7C25400CD4F8D /* DrinkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E36D623F7C25400CD4F8D /* DrinkTableViewController.swift */; };
+		FC5E36D923F7C8D100CD4F8D /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E36D823F7C8D100CD4F8D /* Drinks.swift */; };
+		FC5E36DB23F7CF4600CD4F8D /* 菜單.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC5E36DA23F7CF4600CD4F8D /* 菜單.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FC5E36CB23F7C20200CD4F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC5E36CE23F7C20200CD4F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC5E36D023F7C20200CD4F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5E36D623F7C25400CD4F8D /* DrinkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewController.swift; sourceTree = "<group>"; };
+		FC5E36D823F7C8D100CD4F8D /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		FC5E36DA23F7CF4600CD4F8D /* 菜單.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "菜單.txt"; path = "../../參考/HappyOrderDrinks-master/HappyOrderDrinks/菜單.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		FC5E36C123F7C20000CD4F8D /* SweetUrHeart */ = {
 			isa = PBXGroup;
 			children = (
+				FC5E36DA23F7CF4600CD4F8D /* 菜單.txt */,
 				FC5E36C223F7C20000CD4F8D /* AppDelegate.swift */,
 				FC5E36C423F7C20000CD4F8D /* SceneDelegate.swift */,
 				FC5E36C623F7C20000CD4F8D /* ViewController.swift */,
 				FC5E36C823F7C20000CD4F8D /* Main.storyboard */,
+				FC5E36D623F7C25400CD4F8D /* DrinkTableViewController.swift */,
+				FC5E36D823F7C8D100CD4F8D /* Drinks.swift */,
 				FC5E36CB23F7C20200CD4F8D /* Assets.xcassets */,
 				FC5E36CD23F7C20200CD4F8D /* LaunchScreen.storyboard */,
 				FC5E36D023F7C20200CD4F8D /* Info.plist */,
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5E36DB23F7CF4600CD4F8D /* 菜單.txt in Resources */,
 				FC5E36CF23F7C20200CD4F8D /* LaunchScreen.storyboard in Resources */,
 				FC5E36CC23F7C20200CD4F8D /* Assets.xcassets in Resources */,
 				FC5E36CA23F7C20000CD4F8D /* Main.storyboard in Resources */,
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5E36D723F7C25400CD4F8D /* DrinkTableViewController.swift in Sources */,
 				FC5E36C723F7C20000CD4F8D /* ViewController.swift in Sources */,
+				FC5E36D923F7C8D100CD4F8D /* Drinks.swift in Sources */,
 				FC5E36C323F7C20000CD4F8D /* AppDelegate.swift in Sources */,
 				FC5E36C523F7C20000CD4F8D /* SceneDelegate.swift in Sources */,
 			);
